@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Thing {
     private Integer number;
     private ArrayList<Integer> numbers = new ArrayList<>();
-    private Integer minNumber = Integer.MAX_VALUE;
-    private Integer maxNumber = Integer.MIN_VALUE;
+    private Integer minNumber;
+    private Integer maxNumber;
     private Double
             averageNumber;
 
